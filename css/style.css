@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Cerebri Sans';
+    src: url(../font/cerebri-sans-cufonfonts/Cerebri\ Sans\ SemiBold.ttf);
+}
+body{
+    background: #eee6e6;
+}
+
+
+.sec-bg-header {
+    background-color: #040301;
+}
+
+a.nav-link.text-dark.font-weight-normal {
+    color: #CE947A !important;
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.045em;
+    text-transform: uppercase;
+}
+
+.sec-bg-header2 {
+    background-image: url(../images/Frame\ 25.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+
+.secf-t {
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 64px;
+    padding-bottom: 60px;
+}
+
+.sec-but {
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.045em;
+    background-color: #fff;
+    padding: 10px 30px;
+    color: #AA5F4A;
+    margin-top: 30PX;
+
+}
+.sec-but:hover{
+    color: #fff;
+    background-color: #AA5F4A;
+    text-decoration: none;
+}
+.sec-bg-logo{
+    background: #eee6e6;
+}
+.sec-img {
+    padding-left: 28%;
+}
+.sec-who{
+    margin-top: -15px;
+}
+.sec-p{
+    font-size: 20px;
+line-height: 25px;
+padding-bottom: 60px;
+}
+.sec-but2 {
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.045em;
+    background-color: #AA5F4A;
+    padding: 10px 30px;
+    color: #fff;
+    margin-top: 30PX;
+
+}
+.sec-but2:hover{
+    color: #AA5F4A;
+    background-color: #fff;
+    text-decoration: none;
+}
+.sec-bg-services{
+    background-image: url(../images/Group\ 28.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sce-ser-col{
+    background-color: #fff;
+    border: 1px solid #AA5F4A;
+}
+.sec-img1 {
+    padding-left: 53%;
+}
+.sec-bg-Testimonials{
+    background-image: url(../images/Layer\ 3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 800px;
+}
+.sec-img2 {
+    padding-left: 61%;
+}
+.sec-img-m{
+    display: none;
+}
+
+
+@media (max-width: 767px) {
+    .sec-img-l{
+        display: none;
+    }
+    .sec-img-m{
+        display: block;
+    }
+    a.navbar-brand {
+        width: 65%;
+    }
+    img.sec-logo {
+        width: 85%;
+    }
+    .secf-t {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .sec-f-lg{
+        padding: 0 !important;
+    }
+}
