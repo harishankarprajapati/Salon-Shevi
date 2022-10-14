@@ -103,7 +103,6 @@ padding-bottom: 60px;
     background-image: url(../images/Layer\ 3.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 800px;
 }
 .sec-img2 {
     padding-left: 61%;
@@ -111,7 +110,25 @@ padding-bottom: 60px;
 .sec-img-m{
     display: none;
 }
+.sec-fran{
+    background-image: linear-gradient(rgba(170, 95, 74, 0.9), rgba(170, 95, 74, 0.9)),
+    url(../images/Rectangle\ 13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.sec-fran2{
+    background-image: linear-gradient(rgba(170, 95, 74, 0.9), rgba(170, 95, 74, 0.9)),
+    url(../images/image\ 30.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-imgf {
+    padding-left: 20%;
+}
+.sec-footer{
+    background-color: #111;
+}
 
 @media (max-width: 767px) {
     .sec-img-l{
@@ -132,5 +149,8 @@ padding-bottom: 60px;
     }
     .sec-f-lg{
         padding: 0 !important;
+    }
+    .sec-fran-p{
+        font-size: 25px;
     }
 }
