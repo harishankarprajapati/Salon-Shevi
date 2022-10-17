@@ -2,7 +2,8 @@
     font-family: 'Cerebri Sans';
     src: url(../font/cerebri-sans-cufonfonts/Cerebri\ Sans\ SemiBold.ttf);
 }
-body{
+
+body {
     background: #eee6e6;
 }
 
@@ -50,25 +51,31 @@ a.nav-link.text-dark.font-weight-normal {
     margin-top: 30PX;
 
 }
-.sec-but:hover{
+
+.sec-but:hover {
     color: #fff;
     background-color: #AA5F4A;
     text-decoration: none;
 }
-.sec-bg-logo{
+
+.sec-bg-logo {
     background: #eee6e6;
 }
+
 .sec-img {
     padding-left: 28%;
 }
-.sec-who{
+
+.sec-who {
     margin-top: -15px;
 }
-.sec-p{
+
+.sec-p {
     font-size: 20px;
-line-height: 25px;
-padding-bottom: 60px;
+    line-height: 25px;
+    padding-bottom: 60px;
 }
+
 .sec-but2 {
     font-family: 'Cerebri Sans';
     font-style: normal;
@@ -82,75 +89,218 @@ padding-bottom: 60px;
     margin-top: 30PX;
 
 }
-.sec-but2:hover{
+
+.sec-but2:hover {
     color: #AA5F4A;
     background-color: #fff;
     text-decoration: none;
 }
-.sec-bg-services{
+
+.sec-bg-services {
     background-image: url(../images/Group\ 28.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.sce-ser-col{
+
+.sce-ser-col {
     background-color: #fff;
     border: 1px solid #AA5F4A;
 }
+
 .sec-img1 {
     padding-left: 53%;
 }
-.sec-bg-Testimonials{
+
+.sec-bg-Testimonials {
     background-image: url(../images/Layer\ 3.png);
     background-repeat: no-repeat;
     background-position: right;
 }
+
 .sec-img2 {
     padding-left: 61%;
 }
-.sec-img-m{
+
+.sec-img-m {
     display: none;
 }
-.sec-fran{
+
+.sec-fran {
     background-image: linear-gradient(rgba(170, 95, 74, 0.9), rgba(170, 95, 74, 0.9)),
-    url(../images/Rectangle\ 13.png);
+        url(../images/Rectangle\ 13.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.sec-fran2{
+.sec-fran2 {
     background-image: linear-gradient(rgba(170, 95, 74, 0.9), rgba(170, 95, 74, 0.9)),
-    url(../images/image\ 30.png);
+        url(../images/image\ 30.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .sec-imgf {
-    padding-left: 20%;
+    padding-left: 24%;
 }
-.sec-footer{
+
+.sec-footer {
     background-color: #111;
 }
 
+.sec-footer-text {
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 51px;
+}
+
+.sec-footer-text2 {
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+input.form-control.my-0.py-1.amber-border.border-0 {
+    height: 45px;
+    border-radius: 0;
+}
+
+span#basic-text1 {
+    width: 100%;
+    border-left: 2px solid;
+    background: #fff;
+    border-radius: 0;
+}
+
+.sec-footer-h2 {
+    font-family: 'Cerebri Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+}
+
+.sec-icon {
+    font-size: 25px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  /* */
+  
+  .panel-default>.panel-heading {
+    color: #fff !important;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .panel-default>.panel-heading a {
+    display: block;
+    padding: 10px 15px;
+  }
+  
+  .panel-default>.panel-heading a:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="true"] {
+    background-color: transparent;
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="true"]:after {
+    content: "\2212";
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+  
+  .panel-default>.panel-heading a[aria-expanded="false"]:after {
+    content: "\002b";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+.sec-foot-a{
+   color: #fff !important;
+}
+a:hover {
+    text-decoration: none;
+}
 @media (max-width: 767px) {
-    .sec-img-l{
+    .sec-img-l {
         display: none;
     }
-    .sec-img-m{
+
+    .sec-img-m {
         display: block;
     }
+
     a.navbar-brand {
         width: 65%;
     }
+
     img.sec-logo {
         width: 85%;
     }
+
     .secf-t {
         font-size: 25px;
         line-height: 40px;
     }
-    .sec-f-lg{
+
+    .sec-f-lg {
         padding: 0 !important;
     }
-    .sec-fran-p{
+
+    .sec-fran-p {
         font-size: 25px;
+    }
+
+    .sec-footer-text {
+        font-weight: 800;
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    .sec-footer-text2 {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .sec-icon {
+        font-size: 15px;
+        float: right;
     }
 }
